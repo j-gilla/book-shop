@@ -1,8 +1,8 @@
 import React from 'react';
 import {Route, IndexRoute} from 'react-router';
-import Home from './components/common/Home';
-import About from './components/common/AboutPage';
-import Book from './components/common/BookPage';
+import Home from './components/common/HomePage';
+import About from './components/common/About';
+import Book from './components/common/Book';
 import App from './components/App';
 
 
@@ -12,4 +12,4 @@ export default(
     <Route path="/about" component={About}></Route>
     <Route path="/books" component={Book}></Route>
   </Route>
-)
+);

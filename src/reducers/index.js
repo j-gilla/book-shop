@@ -1,3 +1,9 @@
 // Set up your root reducer here...
  import { combineReducers } from 'redux';
- export default combineReducers;
+import books from './bookReducer';
+
+ export default combineReducers({
+   books:books,
+   //more reducers would go here
+
+});
